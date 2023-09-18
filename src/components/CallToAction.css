@@ -1,0 +1,12 @@
+.action-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #495E57;
+    width: 100%;
+    height: 406px;
+}
+.action-img > img {
+    width: 375px;
+    height: 325px;
+}

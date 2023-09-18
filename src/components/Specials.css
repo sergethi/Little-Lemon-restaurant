@@ -1,0 +1,9 @@
+.specials-container{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+}
+.special-header{
+    display: flex;
+    gap: 50px;
+}
