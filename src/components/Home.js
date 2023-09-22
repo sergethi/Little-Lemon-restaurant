@@ -7,7 +7,7 @@ import "./Home.css";
 
 function Home() {
   return (
-    <div className='home-container'>
+    <div className='home-container' data-testid="home-component">
         <CallToAction />
         <Specials />
         <Testimonials />

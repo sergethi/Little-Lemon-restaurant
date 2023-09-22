@@ -5,7 +5,7 @@ function Footer() {
   return (
     <footer>
       <div className="footer-image">
-        <image />
+        <img />
       </div>
       <div className="footer-naviagtion">
         <ul>

@@ -1,8 +1,12 @@
-import React from 'react'
+import React from 'react';
+import BookingForm from './BookingForm';
 
-function Booking() {
+function Booking({availableTimes, fetchAPI, submitAPI, isSubmitted}) {
   return (
-    <div>Booking</div>
+    <div>
+        <div data-testid="booking-main">Book a table</div>
+        <BookingForm availableTimes={availableTimes} fetchAPI={fetchAPI} submitAPI={submitAPI} isSubmitted={isSubmitted}/>
+    </div>
   )
 }
 
