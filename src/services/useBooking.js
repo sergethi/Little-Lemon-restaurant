@@ -1,11 +1,11 @@
 import { useState, useReducer } from 'react';
 
 // Action Types
-const SET_TIMES = "SET_TIMES";
-const SET_SUBMITTED = "SET_SUBMITTED";
+export const SET_TIMES = "SET_TIMES";
+export const SET_SUBMITTED = "SET_SUBMITTED";
 
 // Reducer function
-const bookingReducer = (state, action) => {
+export const bookingReducer = (state, action) => {
     switch (action.type) {
         case SET_TIMES:
             return { ...state, times: action.payload };
