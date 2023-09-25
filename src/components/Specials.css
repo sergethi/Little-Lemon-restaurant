@@ -1,9 +1,32 @@
 .specials-container{
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     height: auto;
+    width: 100%;
 }
-.special-header{
+.specials-header{
     display: flex;
+    max-width: 680px;
+    width: 100%;
     gap: 50px;
+}
+.specials-header > p {
+   flex-grow: 1;
+   text-align: left;
+   font-size: 40px;
+   font-weight: bolder;
+}
+.specials-header > a{
+    background-color: #F4CE14;
+    text-decoration: none;
+    color: black;
+    border-radius: 5px;
+    padding: 8px;
+    /* width: 200px;
+    height: 60px; */
+    /* text-align: center; */
+    font-weight: bold;
+    align-self: center;
 }

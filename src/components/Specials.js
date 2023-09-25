@@ -4,7 +4,7 @@ import "./Specials.css"
 function Specials() {
   return (
     <div className='specials-container'>
-        <div className='special-header'>
+        <div className='specials-header'>
             <p>This weeks specials !</p>
             <a href='/menu'>Online menu</a>
         </div>

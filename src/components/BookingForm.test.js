@@ -11,7 +11,7 @@ const submitAPI = jest.fn();
 const isSubmitted = jest.fn();
 // const mockNavigate = jest.fn();
 
-test("renders choose date label", () => {
+test("renders booking form labels", () => {
   render(
     <BookingForm availableTimes={mockAvailableTimes} fetchAPI={fetchAPI} submitAPI={submitAPI} isSubmitted={isSubmitted} />
   );
@@ -25,8 +25,26 @@ test("renders choose date label", () => {
   expect(guestsLabel).toBeInTheDocument();
   expect(occasionLabel).toBeInTheDocument();
   expect(button).toBeInTheDocument();
-  expect(button).toBeEnabled();
 });
+test("validate that the correct attributes are applied to each input", () => {
+  render(
+    <BookingForm availableTimes={mockAvailableTimes} fetchAPI={fetchAPI} submitAPI={submitAPI} isSubmitted={isSubmitted} />
+  );
+  const dateInput = screen.getByLabelText("Choose date");
+  const timeInput = screen.getByLabelText("Choose time");
+  const guestsInput = screen.getByLabelText("Number of guests");
+  // const occasionInput = screen.getByLabelText("Occasion");
+  const submitInput = screen.getByRole('button', {name: /Make Your reservation/i});
+  expect(dateInput).toHaveAttribute("type", "date");
+  expect(dateInput).toHaveAttribute("required");
+  expect(timeInput).toHaveAttribute("required");
+  expect(guestsInput).toHaveAttribute("type", "number");
+  expect(guestsInput).toHaveAttribute("min", "1");
+  expect(submitInput).toHaveAttribute("type", "submit");
+  let date = "";
+  fireEvent.change(dateInput, { target: { value: date } });
+  expect(submitInput).toBeDisabled();
+})
 
 test("User is able to submit the form ", () => {
   const date = "2023-09-20";

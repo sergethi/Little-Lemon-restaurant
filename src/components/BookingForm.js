@@ -19,9 +19,9 @@ function BookingForm({availableTimes, fetchAPI, submitAPI, isSubmitted}) {
     <div>
       <form onSubmit={handleSubmit}>
         <label htmlFor="res-date">Choose date</label>
-        <input type="date" id="res-date" value={date} onChange={(e)=> {setDate(e.target.value); fetchAPI(date)}}/>
+        <input type="date" id="res-date" value={date} onChange={(e)=> {setDate(e.target.value); fetchAPI(date)}} required/>
         <label htmlFor="res-time">Choose time</label>
-        <select id="res-time" value={time} onChange={(e)=> setTime(e.target.value)}>
+        <select id="res-time" value={time} onChange={(e)=> setTime(e.target.value)} required>
             {availableTimes.map((time) =>{
                 return <option key={time}>{time}</option>
             })}
@@ -33,7 +33,7 @@ function BookingForm({availableTimes, fetchAPI, submitAPI, isSubmitted}) {
           <option>Birthday</option>
           <option>Anniversary</option>
         </select>
-        <input type="submit" value="Make Your reservation" />
+        <input type="submit" value="Make Your reservation" disabled={!date || !time || !guests}/>
       </form>
     </div>
   );
