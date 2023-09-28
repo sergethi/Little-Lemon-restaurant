@@ -1,4 +1,68 @@
+.story-main-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background-color: #495E57; */
+    width: 100%;
+    height: auto;
+}
 .story-container{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    max-width: 880px;
+    gap: 30px;
+}
+.story-text{
+    align-self:center;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    text-align: left;
+    max-width: 360px;
+}
+.story-text > p {
+    color: black;
+}
+#story-title{
+    color: #F4CE14;
+    font-size: 48px;
+    font-family: 'Markaz text';
+}
+
+#story-city{
+    font-size: 32px;
+}
+.story-text > a {
+    background-color: #F4CE14;
+    text-decoration: none;
+    color: black;
+    border-radius: 5px;
+    padding: 8px;
+    width: 200px;
+    text-align: center;
+    font-weight: bold;
+}
+.story-img{
+    display: grid;
+    position: relative;
+    grid-template-columns: repeat(12, 1fr);
+    width: 100%;
+}
+.story-bottom-img{
+    grid-column: 6 / -1;
+    grid-row: 1;
+}
+.story-top-img{
+    grid-column: 1 / span 7;
+    grid-row: 1;
+    padding-top: 40%;  /*slightly arbitrary, keeps proportion once resized */
+    z-index: 1;
+}
+
+img {
+    width: 100%;
+    height: 325px;
+    object-fit: cover;
+    display: block;
 }

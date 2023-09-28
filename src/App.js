@@ -7,6 +7,7 @@ import Home from "./components/Home";
 import Booking from "./components/Booking";
 import ConfirmedBooking from "./components/ConfirmedBooking";
 import useBooking from "./services/useBooking";
+import image from "./images/greeksalad.jpg"
 
 function App() {
   const {availableTimes, isSubmitted, fetchAPI, submitAPI} = useBooking()

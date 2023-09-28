@@ -5,12 +5,73 @@
     align-items: center;
     height: auto;
     width: 100%;
+    gap: 20px;
 }
 .specials-header{
     display: flex;
-    max-width: 680px;
+    max-width: 780px;
     width: 100%;
-    gap: 50px;
+}
+.specials-items{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    max-width: 780px;
+}
+.item-card{
+    display: flex;
+    flex-direction: column;
+    /* gap: 10px; */
+    text-align: left;
+    border-radius: 16px;
+    width: 100%;
+    max-width: 500px;
+    /* max-height: 410px; */
+    height: 410px;
+    box-shadow: 5px 10px 20px #333232;
+}
+.item-card img {
+    max-width: 100%;
+    height: auto;
+    height: 200px;
+    object-fit: cover; /* This will cover the 200x200 area without distortion */
+    display: block; /* Optional: Removes any default margin or spacing */
+    border: 1px solid black;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+}
+.item-info{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;  /* this will make the item-info take up all available space pushing the link to the bottom */
+    justify-content: space-between;
+    padding: 8px;
+    background-color: #EDEFEE;
+}
+.name-price{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#name{
+   font-size: 20px;
+   font-weight: bold;
+
+}
+#price{
+    color: #F4CE14;
+    font-size: 16px;
+    
+}
+.item-info a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.order-bikeIcon{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 .specials-header > p {
    flex-grow: 1;
