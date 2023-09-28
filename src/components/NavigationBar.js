@@ -1,20 +1,31 @@
 import React from 'react';
 import logo from '../images/Logo-v1.png';
 import './NavigationBar.css'
+import { Link } from 'react-router-dom';
 
 function NavigationBar() {
+  const handleClick = (anchor) => () => {
+    const id = `${anchor}-section`;
+    const element = document.getElementById(id);
+    if (element) {
+      element.scrollIntoView({
+        behavior: "smooth",
+        block: "start",
+      });
+    }
+  };
   return (
     <nav>
         <div className='logo-container'>
             <img src={logo} alt='logo'/>
         </div>
         <ul>
-            <li><a href='/'>Home</a></li>
-            <li><a href='/about'>About</a></li>
-            <li><a href='/menu'>Menu</a></li>
-            <li><a href='/booking'>Reservations</a></li>
-            <li><a href='/order-online'>Order online</a></li>
-            <li><a href='/login'>Login</a></li>
+            <li><Link to='/'>Home</Link></li>
+            <li><Link to='/#about' onClick={handleClick("about")}>About</Link></li>
+            <li><Link to='/#menu'onClick={handleClick("menu")}>Menu</Link></li>
+            <li><Link to='/booking'>Reservations</Link></li>
+            <li><Link to='/order-online'>Order online</Link></li>
+            <li><Link to='/login'>Login</Link></li>
         </ul>
     </nav>
   )

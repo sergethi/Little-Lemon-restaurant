@@ -9,7 +9,7 @@
 }
 .action-container{
     display: flex;
-    max-width: 780px;
+    max-width: 980px;
 }
 .action-text{
     align-self:center;

@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
+import bookingCover from "../images/louis-hansel-food-pic.jpg";
+import "./BookingForm.css"
 
 function BookingForm({availableTimes, fetchAPI, submitAPI, isSubmitted}) {
     const navigate = useNavigate();
@@ -16,7 +18,11 @@ function BookingForm({availableTimes, fetchAPI, submitAPI, isSubmitted}) {
     }
     console.log("availTimes", availableTimes)
   return (
-    <div>
+    <div className="bookingForm-main-container">
+      <div className="bookingForm-cover-img">
+        <img src={bookingCover} alt="cover image"/>
+      </div>
+      <p data-testid="booking-main" id="booking-form-title">Book a table</p> 
       <form onSubmit={handleSubmit}>
         <label htmlFor="res-date">Choose date</label>
         <input type="date" id="res-date" value={date} onChange={(e)=> {setDate(e.target.value); fetchAPI(date)}} required/>

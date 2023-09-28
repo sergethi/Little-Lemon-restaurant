@@ -5,7 +5,7 @@ import {FaBiking} from "react-icons/fa"
 
 function Specials() {
   return (
-    <div className="specials-container">
+    <div className="specials-container" id="menu-section">
       <div className="specials-header">
         <p>This weeks specials !</p>
         <a href="/menu">Online menu</a>

@@ -1,6 +1,7 @@
 import React from 'react';
 import "./CallToAction.css"
-import restaurantFoodImg from "../images/restauranfood.jpg"
+import restaurantFoodImg from "../images/restauranfood.jpg";
+import { Link } from 'react-router-dom';
 
 function CallToAction() {
   return (
@@ -13,7 +14,7 @@ function CallToAction() {
             We are a family owned Mediterranean restaurant, focused on
             traditional recipes served with a modern twist.
           </p>
-          <a href="/booking">Reverse a table</a>
+          <Link to="/booking">Reverse a table</Link>
         </div>
         <div className="action-img">
           <img src={restaurantFoodImg} alt="food image" />

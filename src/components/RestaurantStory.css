@@ -6,11 +6,12 @@
     /* background-color: #495E57; */
     width: 100%;
     height: auto;
+    margin-bottom: 50px;
 }
 .story-container{
     display: flex;
     justify-content: space-between;
-    max-width: 880px;
+    max-width: 980px;
     gap: 30px;
 }
 .story-text{

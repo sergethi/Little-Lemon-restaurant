@@ -49,4 +49,5 @@ footer{
 }
 .footer-socials ul li:not(:nth-child(1)) {
     display: inline;
+    padding-right: 10px;
 }

@@ -5,7 +5,7 @@ import restaurant from "../images/restaurant.jpg"
 
 function RestaurantStory() {
   return (
-    <div className="story-main-container">
+    <div className="story-main-container" id="about-section">
       <div className="story-container">
         <div className="story-text">
           <p id="story-title">Little Lemon</p>

@@ -16,7 +16,7 @@
     display: flex;
     gap: 20px;
     justify-content: center;
-    max-width: 780px;
+    max-width: 980px;
 }
 .item-card{
     display: flex;
@@ -32,7 +32,6 @@
 }
 .item-card img {
     max-width: 100%;
-    height: auto;
     height: 200px;
     object-fit: cover; /* This will cover the 200x200 area without distortion */
     display: block; /* Optional: Removes any default margin or spacing */
