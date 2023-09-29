@@ -1,3 +1,7 @@
+Coursera Meta front end developer capstone project
+# Build by
+Serge A Nikiema
+Software engineer
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

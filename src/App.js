@@ -7,7 +7,8 @@ import Home from "./components/Home";
 import Booking from "./components/Booking";
 import ConfirmedBooking from "./components/ConfirmedBooking";
 import useBooking from "./services/useBooking";
-import image from "./images/greeksalad.jpg"
+import OrderOnline from "./components/OnlineMenu";
+import Login from "./components/Login";
 
 function App() {
   const {availableTimes, isSubmitted, fetchAPI, submitAPI} = useBooking()
@@ -25,6 +26,8 @@ function App() {
             }
           />
           <Route path="/confirm-booking" element={<ConfirmedBooking />} />
+          <Route path="/order-online" element={<OrderOnline />} />
+          <Route path="/login" element={<Login />} />
         </Routes>
       </main>
       <Footer />

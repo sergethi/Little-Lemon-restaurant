@@ -17,7 +17,7 @@ function NavigationBar() {
   return (
     <nav>
         <div className='logo-container'>
-            <img src={logo} alt='logo'/>
+            <Link to='/'><img src={logo} alt='logo'/></Link>
         </div>
         <ul>
             <li><Link to='/'>Home</Link></li>

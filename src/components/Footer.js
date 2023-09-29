@@ -1,7 +1,8 @@
 import React from "react";
 import "./Footer.css";
 import logo from "../images/Logo-v1.png";
-import {FaYoutube, FaFacebook, FaInstagram, FaTwitter} from "react-icons/fa"
+import {FaYoutube, FaFacebook, FaInstagram, FaTwitter} from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 function Footer() {
   return (
@@ -13,22 +14,22 @@ function Footer() {
         <div className="footer-naviagtion">
           <ul>
             <li>
-              <a href="/home">Home</a>
+              <Link to="/">Home</Link>
             </li>
             <li>
-              <a href="/about">About</a>
+              <Link to="/#about">About</Link>
             </li>
             <li>
-              <a href="/menu">menu</a>
+              <Link to="/#menu">menu</Link>
             </li>
             <li>
-              <a href="/reservations">reservations</a>
+              <a to="/booking">reservations</a>
             </li>
             <li>
-              <a href="/order-online">Order online</a>
+              <Link to="/order-online">Order online</Link>
             </li>
             <li>
-              <a href="/login">Login</a>
+              <Link to="/login">Login</Link>
             </li>
           </ul>
         </div>
@@ -38,13 +39,13 @@ function Footer() {
               <a href="#">Contacts</a>
             </li>
             <li>
-              <a href="#"> Address</a>
+              <a href="#"> <span>Address</span>: 1247 Fake Street Chicago, IL</a>
             </li>
             <li>
-              <a href="#">Phone number</a>
+              <a href="#"><span>Phone number</span>: 888-555-111</a>
             </li>
             <li>
-              <a href="#">email</a>
+              <a href="#"><span>email</span>: info@littlelemon.com</a>
             </li>
           </ul>
         </div>

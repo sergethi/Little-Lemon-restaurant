@@ -1,11 +1,4 @@
-.confirm-container{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: auto;
-}
-.confirm-content{
+.comingSoon-main-container{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -15,23 +8,24 @@
     max-width: 980px;
     width: 100%;
     height: 400px;
-    background-color: #495E57;
+    background-color: #F4CE14;
     border-radius: 8px;
     padding: 20px;
 }
-.confirm-content p {
+.comingSoon-main-container p {
     font-size: 20px;
     font-weight: bold;
-    color: white;
+    color: black;
 }
-.confirm-content a{
+.comingSoon-main-container a{
     text-decoration: none;
     color: #F4CE14;
     background-color: black;
     padding: 10px;
     font-weight: bold;
 }
-.confirm-content a:hover{
+.comingSoon-main-container a:hover{
     color: black;
-    background-color: #F4CE14;
+    background-color: white;
+    border: 1px solid #495E57;
 }

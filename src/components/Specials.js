@@ -7,7 +7,7 @@ function Specials() {
   return (
     <div className="specials-container" id="menu-section">
       <div className="specials-header">
-        <p>This weeks specials !</p>
+        <p>This week specials !</p>
         <a href="/menu">Online menu</a>
       </div>
       <div className="specials-items">
