@@ -67,3 +67,20 @@ img {
     object-fit: cover;
     display: block;
 }
+
+/* responsive */
+@media (max-width: 768px){
+    .story-container{
+        display: flex;
+        flex-direction: column;
+        max-width: 100%;
+        gap: 30px;
+        padding: 10px;
+    }
+    .story-text{
+        align-self:center;
+        display: flex;
+        max-width: 100%;
+        padding: 10px;
+    }
+}

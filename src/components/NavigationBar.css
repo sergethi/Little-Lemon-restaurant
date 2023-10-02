@@ -30,3 +30,33 @@ nav > ul li a{
     text-decoration: none;
     color: black;
 }
+.menu-toggle{
+    display: none;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+/* mobile nav */
+@media (max-width: 768px){
+    .menu-toggle{
+        display: block;
+    }
+    nav ul {
+        display: none;
+        width: 100%;
+        text-align: center;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        background-color: white;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .nav-list.active{
+        display: flex;
+    }
+    /* .nav-list li a:hover{
+        background-color: #F4CE14;
+        width: 100%;
+    } */
+}

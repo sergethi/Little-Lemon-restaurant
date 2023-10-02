@@ -1,14 +1,15 @@
 import React from "react";
 import "./Specials.css";
 import db from "../db.json";
-import {FaBiking} from "react-icons/fa"
+import { FaBiking } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 function Specials() {
   return (
     <div className="specials-container" id="menu-section">
       <div className="specials-header">
         <p>This week specials !</p>
-        <a href="/menu">Online menu</a>
+        <Link to="/order-online">Online menu</Link>
       </div>
       <div className="specials-items">
         {db.specials.map((item) => {
@@ -22,13 +23,12 @@ function Specials() {
                   <p id="name">{item.name}</p>
                   <p id="price">{item.price}</p>
                 </div>
-              
+
                 <p>{item.description}</p>
                 <div className="order-bikeIcon">
-                  <a href="#">Order a delivery </a> 
-                  <FaBiking className='biking-icon'></FaBiking>
+                  <Link to="/order-online">Order a delivery </Link>
+                  <FaBiking className="biking-icon"></FaBiking>
                 </div>
-                
               </div>
             </div>
           );

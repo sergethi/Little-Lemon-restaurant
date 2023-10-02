@@ -69,7 +69,7 @@ function useBooking() {
     await new Promise((res) => setTimeout(res, 1000)); // Simulating network delay
 
     // Replace with actual API call and logic
-    console.log("Submitted data:");
+    console.log("Submitted data: ");
 
     // Dispatch the submission status to the reducer
     dispatch({ type: SET_SUBMITTED });
