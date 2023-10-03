@@ -1,17 +1,17 @@
 
 # Little-Lemon-restaurant
 # Coursera Meta front end developer capstone project 
-![React App - Google Chrome 10_3_2023 12_22_48 PM](https://github.com/sergethi/Little-Lemon-restaurant/assets/56887722/0b6327f3-7b3b-4cbd-ad31-9af4ea256d36) \
+![React App - Google Chrome 10_3_2023 12_22_48 PM](https://github.com/sergethi/Little-Lemon-restaurant/assets/56887722/0b6327f3-7b3b-4cbd-ad31-9af4ea256d36) \ \
 ![React App - Google Chrome 10_3_2023 12_23_08 PM](https://github.com/sergethi/Little-Lemon-restaurant/assets/56887722/4dab5746-915f-4b02-989f-4e37314ef698) \
 ![React App - Google Chrome 10_3_2023 12_28_09 PM](https://github.com/sergethi/Little-Lemon-restaurant/assets/56887722/caf0d9ea-0b6c-46d7-ba2b-b6c5bd5d38b8) \
-![React App - Google Chrome 10_3_2023 12_29_58 PM](https://github.com/sergethi/Little-Lemon-restaurant/assets/56887722/6a7dbec5-7f1a-49cd-8513-0678e2b522be) \
+![React App - Google Chrome 10_3_2023 12_29_58 PM](https://github.com/sergethi/Little-Lemon-restaurant/assets/56887722/6a7dbec5-7f1a-49cd-8513-0678e2b522be) 
 
 
 # Build by
 Serge A Nikiema
 
 ## Quick Start
-$ git clone https://github.com/sergethi/little-lemon-restaurant.git \
+$ git clone https://github.com/sergethi/Little-Lemon-restaurant.git \
 $ cd Little-Lemon-restaurant \
 $ npm install 
 
