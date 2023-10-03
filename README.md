@@ -1,10 +1,19 @@
-Coursera Meta front end developer capstone project
+
+# Little-Lemon-restaurant
+# Coursera Meta front end developer capstone project 
+![React App - Google Chrome 10_3_2023 12_22_48 PM](https://github.com/sergethi/Little-Lemon-restaurant/assets/56887722/0b6327f3-7b3b-4cbd-ad31-9af4ea256d36) \
+![React App - Google Chrome 10_3_2023 12_23_08 PM](https://github.com/sergethi/Little-Lemon-restaurant/assets/56887722/4dab5746-915f-4b02-989f-4e37314ef698) \
+![React App - Google Chrome 10_3_2023 12_28_09 PM](https://github.com/sergethi/Little-Lemon-restaurant/assets/56887722/caf0d9ea-0b6c-46d7-ba2b-b6c5bd5d38b8) \
+![React App - Google Chrome 10_3_2023 12_29_58 PM](https://github.com/sergethi/Little-Lemon-restaurant/assets/56887722/6a7dbec5-7f1a-49cd-8513-0678e2b522be) \
+
+
 # Build by
 Serge A Nikiema
-Software engineer
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Quick Start
+$ git clone https://github.com/sergethi/little-lemon-restaurant.git \
+$ cd Little-Lemon-restaurant \
+$ npm install 
 
 ## Available Scripts
 
@@ -33,43 +42,4 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-# Little-Lemon-restaurant
